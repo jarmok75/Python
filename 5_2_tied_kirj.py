@@ -1,0 +1,7 @@
+print("luetaanpa tiedoto")
+file_name =input("Give a file name:")
+readfile = open(file_name,"w")
+sis =input("Write something:")
+readfile.write(sis)
+readfile.close()
+print("Wrote",sis,"to the file",file_name)
